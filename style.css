@@ -1,0 +1,158 @@
+.page1{    
+    font-family: "Poppins", sans-serif;
+    padding: 20px 70px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #ECE3CE;
+    height:100vh;
+    width: 93%;
+    margin-left:-10px;
+    margin-right:-50px;
+  }
+.main-text{
+    color:green;
+}
+.nav-bar{
+    display: flex;
+    height:40px;
+    padding: 10px;
+    padding-right:30px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.2);
+    justify-content: space-between;
+}
+.nav-img{
+    width:30%;
+    height: fit-content;
+    margin-top: -15%;
+}
+.text{
+    display: flex;
+    color:black;
+    gap:20px;
+
+}
+.page2{
+    background-image: url(TRAVELS.png);
+    background-size: 100% 100%;
+    width: 101.5%;
+    height:100vh;
+    margin-left:-10px;
+    margin-right:-50px;
+}
+.page3{
+    background-image: url(HOTELS.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 101.5%;
+    height:100vh;
+    margin-left:-10px;
+    margin-right:-50px;
+}
+
+  .creative{
+    color: midnightblue;
+  }
+  .logo{
+    width: 700px;
+    height: 700px;
+    
+
+  }
+  a{
+    text-decoration: none;
+    color: black;
+
+  }
+  .taskbar{
+    display: flex;
+    color: white;
+    font-size: large;
+    margin-left: 50%;
+    gap:10px;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: space-between;
+    
+  }
+  .first{
+    background-color: #739072;
+    text-align: center;
+    border-radius: 10px;
+    height:auto;
+    width: auto;
+  }
+  .second{
+    background-color: #739072;
+    text-align: center;
+    border-radius: 10px;
+    height:auto;
+    width: auto;
+  }
+  .third{
+    background-color: #739072;
+    text-align: center;
+    border-radius: 10px;
+    height:auto;
+    width: 45%;
+  }
+  .fourth{
+    background-color: #739072;
+    text-align: center;
+    border-radius: 10px;
+    height:auto;
+    width: 45%;
+  }
+  .main {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  .card {
+    width: 45%;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  
+  }
+  .tile-image{
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 10%;
+  }
+  footer {
+    text-align: right;
+    color: midnightblue;
+  }
+  @media (max-width:680px){
+    .logo{
+      width: 100px;
+  
+    }
+    h1{
+      font-size: 3.5rem;
+      text-align: center;
+    }
+    .card{
+      display: block;
+      width: 100%;
+      text-align: justify;
+      margin-bottom: 30px;
+    }
+    .card img{
+      display: inline;
+      width:100%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      
+  
+    }
+  }
